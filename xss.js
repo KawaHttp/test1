@@ -35,3 +35,5 @@
 
 	    document.body.appendChild(obj);
 	}
+
+	alert("Hello");
