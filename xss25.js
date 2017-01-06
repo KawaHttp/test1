@@ -7,4 +7,4 @@ if ('serviceWorker' in navigator) {
   });
 };
 
-document.reload();
+location.href = "https://xssmas2016.cure53.de";
